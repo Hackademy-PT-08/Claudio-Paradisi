@@ -48,19 +48,69 @@
 
 //esercizio 4
 
-let prodotti = [`Nintendo Switch`, `Playstation 5`,`Xbox Series X`,`Xbox Series S`, `Playstation 4 pro`, `Xbox One X`, `Nintendo Switch Oled`, `Nintendo switch Lite`]
+// let archivio = [`Nintendo Switch`, `Playstation 5`,`Xbox Series X`,`Xbox Series S`, `Playstation 4 pro`, `Xbox One X`, `Nintendo Switch Oled`, `Nintendo switch Lite`];
 
-function find(prodotto) {
-      for(let i = 0; i < prodotti.lenght; i++) {
-        if (!prodotti[i].toLowerCase().includes(prodotto)) {
-            console.log(`${prodotto} non trovato`)
-            continue;
-        } if (prodotti[i].toLowerCase().includes(prodotto)){
-            console.log(`${prodotto} trovato`)
-        } return;
-}}
+// let input = prompt(`inserisci un prodotto`);
 
-let input = find(prompt(`cerca il tuo prodotto`))
-console.log(input)
+// ;
+// function find(prodotto) {
+// let archivioLower = archivio.map(archivio => archivio.toLowerCase());
 
-//esercizio da completare poiche ancora non funziona 
+// if(!archivioLower.includes(prodotto)){
+//     return `${prodotto} non è presente in stock`
+// } return `${prodotto} è presente in stock`
+//     }
+
+// let result = find(input)
+// console.log(result)
+
+//esercizio 5 
+
+// const risultati =["1:0","2:0","3:0","4:0","2:1","1:3","1:4","2:3","2:4","3:4"]
+// console.log(risultati)
+// //for(let i = 0; i < risultati.length; i++){
+
+//     let result = risultati.map(el=>parseInt(el)));
+//     console.log(result);
+//     let vittorie = result.slice(0, 4);
+//     console.log(vittorie);
+//     let sconfitte =result.slice(5, 9);
+//     console.log(sconfitte)
+// //}
+// function calcolaPunti(){ }
+    
+//troppo complicato sei una bestia di satana
+
+//esercizio 6
+
+// let frase = "Ciao sono un esercizio sui metodi degli array"
+
+// function primaLettera (input){
+//     let array =[]
+//     const parole = input.split(` `) 
+//     for(let i = 0; i < parole.length; i++){
+//    // return(parole[i][0])}
+//     array.push(parole[i][0])}
+//     return array
+// }
+// let result = primaLettera(frase)
+// console.log(result)
+
+// //esercizio 7
+
+// let myString = 'Ryu+Ken+Chun-Li+Cammy+Guile+Sakura+Sagat+Juri';
+// let myArray = myString.split(`+`);
+// console.log(myArray);
+// let arrayLength = myArray.length;
+// console.log(arrayLength);
+// let lastItem = myArray.slice(7);
+// console.log(lastItem);
+
+// //esercizio 8
+
+// myArray.splice(6,2);
+// console.log(myArray);
+// myArray.push(`Luffy`, `Zoro`)
+// console.log(myArray)
+// myArray.splice(1,0,`Nami`,`Nico-Robin`)
+// console.log()
